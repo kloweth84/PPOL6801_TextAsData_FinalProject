@@ -3,9 +3,25 @@ Repository for "Context of evaluation and data in 21st century Federal Policy: A
 
 Completed for the Text as Data Course at Georgetown University, Spring 2025 Semester
 
-# Directory:
+# Abstract
 
 
+This study explores how the use of evaluation and data terminology has changed in the federal government during the 21st century. Analyzing a corpus of federal agency rules and presidential documents from the Federal Register (2001-2025), the research investigates the frequency of terms such as "evaluation," "data analysis," and "artificial intelligence," and employs GloVe word embedding models to analyze changes in their contextual usage. The findings reveal fluctuations in term usage over time and presidential administrations and differences in usage between agency rules and presidential documents.  Additionally, the results from the word embedding models highlight variations in the contextualization of terms across presidential administrations and political parties.
+
+# Methodology
+
+
+- **Count Frequency of Specific Terms**:  With the tokenized corpus, compare particular token frequency across documents. Using the corpus variables like publication date of the documents and presidential administration, I also compare how the frequency changes based on subgroups.
+
+- **Key Words in Context (KWIC)**: The KWIC technique allows for closer examination of the words surrounding a particular target token. It extracts the target token from the corpus and provides the context window (the tokens directly before and after the target) to show how the term is getting used.
+
+- **Global Vectors for Word Representation (GloVe) word embedding model**:  GloVe is an unsupervised learning algorithm that captures information about tokens through a multi-dimensional vector representation (Pennington et al., 2014). It utilizes feature co-occurrence to measure the linguistic or semantic similarity of words in a corpus (Pennington et al., 2014). The model also uses an optimized cost function to learn and improve embeddings iteratively. More information on this type of model can be found here: https://nlp.stanford.edu/projects/glove/ 
+
+
+# Repo Directory:
+
+- **TAD_ProjectProposal_Loweth**: Initial project proposal submitted for assignment as part of the Text as Data Class
+- **TAD_finalpaper**: Final report documenting project findings 
 
 ## Code:
 
