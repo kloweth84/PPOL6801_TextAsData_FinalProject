@@ -27,9 +27,9 @@ Completed for the Text as Data Course at Georgetown University, Spring 2025 Seme
 
 -**Figures**: 
 
-  -- KWIC: example key words in context (KWIC) results that identify the most common words around specific target tokens
-  -- Annual_Trends: line graphs that portray the annual usage of specific unigrams and bigrams between 2021-2025. The y-axis for these graphs is a pseudo log of the count
-  -- Presidential_Term: bar graphs that portray the frequency of specific unigram and bigrams by presidential administration, from Bush first administration through Trump second administration
+  * KWIC: example key words in context (KWIC) results that identify the most common words around specific target tokens
+  * Annual_Trends: line graphs that portray the annual usage of specific unigrams and bigrams between 2021-2025. The y-axis for these graphs is a pseudo log of the count
+  * Presidential_Term: bar graphs that portray the frequency of specific unigram and bigrams by presidential administration, from Bush first administration through Trump second administration
 
 
 
