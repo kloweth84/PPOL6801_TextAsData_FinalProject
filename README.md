@@ -26,8 +26,15 @@ This study explores how the use of evaluation and data terminology has changed i
 ## Code:
 
 - **FinalProject_APIsearch_clean.Rmd**: The code used to query and compile documents from the Federal Register and collect the full text that is the corpus for analysis.
+	* **Input**: None
+	* **Output**: A csv file containing information on official federal government documents that met certain search criteria. Each row represents a unique observation. Includes the field of analysis, body_text, that contains the entire document's complete text. 
+	
 - **FinalProject_KeyWordsAnalysis_clean.Rmd**: The code that examines the frequency of specific tokens within the corpus and applies the Key Words in Context Technique on the corpus
+	* **Input**: The csv file created using the APIsearch code file
+	* **Output**: Figures on term frequency over time and presidential administrations. Example figures found in the Figures folder. 
 - **FinalProject_WordEmbeddings_clean.Rmd**: The code that implements a Global Vectors for Word Representation (GloVe) model on the subsets of the corpus
+	* **Input**: The csv file created using the APIsearch code file or the token .Rds files found in the data folder. 
+	* **Output**:  The csv files in the Word_embedding_results folder.
 
 
 
