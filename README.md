@@ -21,7 +21,8 @@ This study explores how the use of evaluation and data terminology has changed i
 # Repo Directory:
 
 - **TAD_ProjectProposal_Loweth**: Initial project proposal submitted for assignment as part of the Text as Data Class
-- **TAD_finalpaper**: Final report documenting project findings 
+- **TAD_finalpaper_Loweth**: Final report documenting project findings 
+- **TAD_finalproject_Loweth_slidedeck**: Slide deck providing an overview of results
 
 ## Code:
 
